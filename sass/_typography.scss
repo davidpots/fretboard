@@ -1,0 +1,41 @@
+/* -- GENERAL TYPOGRAPHY -- */
+
+        * {
+        	position: relative;
+        	-webkit-box-sizing: border-box;
+        	   -moz-box-sizing: border-box;
+        	        box-sizing: border-box;
+        }
+
+        body { 
+          color: #555;
+          font-family: 'Helvetica Neue', sans-serif;
+          font-size: 16px;
+          line-height: 1.4; }
+
+        a  { color: #f05a28; }
+
+        h1,h2,h3,h4,h5,h6 { color: #444; margin: 0 0 20px 0; }
+
+        h1      { font-size: 40px; }
+        h2      { font-size: 32px; }
+        h3      { font-size: 24px; }
+        h4      { font-size: 21px; }
+        h5      { font-size: 18px; }
+        h6      { font-size: 18px; }
+
+        p         { margin: 20px 0 20px 0; }
+        
+        ul,ol     { margin: 0 0 20px 28px; padding: 0; }
+        dl        { margin: 0 0 20px 0; }
+        dl dt     { font-weight: bold; color: #444; margin-bottom: 4px; }
+        dl dd     { margin-bottom: 0px; margin-left: 24px; }
+        
+        pre,code  { font-size: 15px; line-height: 20px; font-family: 'Andale Mono', monospace; }
+        pre       { overflow: auto; margin: 0 0 20px 0; padding: 20px; border-radius: 6px; background: #eee; }
+        code      { display: inline-block; white-space: nowrap; padding: 2px 6px; border-radius: 3px; background: #f4f4f4; }
+        
+        table     { border-collapse: collapse; table-layout:fixed; width:100%; margin: 0 0 20px 0; }
+        td,th     { padding: 8px 9px 7px; font-size: 14px; line-height: 17px; border: 1px solid #aaa; text-align: left; }
+        th        { background: #eee; }
+        td        { font-size: 13px; background: #fff; }

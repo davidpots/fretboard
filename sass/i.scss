@@ -11,7 +11,7 @@
             margin: 0 auto 32px;
             background: #fff;
         }
-        // Divide height by width, via via http://ansciath.tumblr.com/post/7347495869/css-aspect-ratio
+        // Divide height by width, via http://ansciath.tumblr.com/post/7347495869/css-aspect-ratio
         .v4  .fretboard_pillars { padding-top: percentage( $fretb_height_v4  / $fretb_width ); }
         .v5  .fretboard_pillars { padding-top: percentage( $fretb_height_v5  / $fretb_width ); }
         .v7  .fretboard_pillars { padding-top: percentage( $fretb_height_v7  / $fretb_width ); }

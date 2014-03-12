@@ -54,7 +54,7 @@ var fretb_vert_4 = '<svg class="fretboard_svg" width="576" height="528" version=
                       </g>\
                     </svg>';
 
-var fretb_vert_5 = '<svg class="fretboard_svg" width="576" height="616" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"\
+var fretb_vert_5 = '<svg class="fretboard_svg" width="100%" height="100%" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"\
                     	 viewBox="0 0 576 616" enable-background="new 0 0 576 616" xml:space="preserve">\
                       <g class="fret_bg">\
                       	<rect x="102" y="72" fill="#FFFFFF" width="372" height="472"/>\

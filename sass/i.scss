@@ -48,6 +48,7 @@
         .v15 .cell { height: percentage( $cell_height / $fretb_height_v15 ); }
 
         .v5 { padding-bottom: 8px; } // weird hack, 8px makes the container a very divisible number
+        .v7 { padding-bottom: 8px; } // weird hack, 8px makes the container a very divisible number
 
 /* Fretboard Element Styles */
         .cell.dot .fretb_dot { fill: #27a9e1; }

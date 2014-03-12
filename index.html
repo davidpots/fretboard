@@ -2,18 +2,134 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>
-      Fretboard
-    </title>
-    <meta name="author" content="">
-    <meta name="description" content="">
+    <title>Fretboard</title>
+
+    <meta name="author" content="David Potsiadlo">
+    <meta name="description" content="Web-friendly guitar charts for scales and chords">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Styles -->
     <link rel="stylesheet" href="css/i.css">
+
+    <!-- Javascript -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <script src="javascript/fretboardSVG.js"></script>
+    <script src="javascript/main.js"></script>
+    
   </head>
   <body>
-    <h1>Hello</h1>
+
+      <div class="content">
+
+<h1>Fretboard</h1>
+<p>HTML/SVG Scale Charts &amp; Chord Diagrams for Guitar, Ukulele, and similar instruments. In development, coming very soon. For some thoughts so far, <a href="http://davidpots.com/blog/guitar-fretboard-ascii-svg/">check out my brief writeup</a>.
+<p>The order I'm tackling things is as follows. Once I get all this done, I'll work on exciting ways to package together the product and build a compelling user experience for referencing the chords and scales that are often sought after.</p>
+<ol>
+  <li><strike>Guitar chord diagrams (vertical fretboard, various sizes)</strike></li>
+  <li>Ukulele chord diagrams (vertical fretboard, various sizes)</li>
+  <li>Guitar scale diagrams (horizontal fretboard, various sizes)</li>
+  <li>Ukulele scale diagrams (horizontal fretboard, various sizes)</li>
+</ol>
+
+<div class="fretboard_instance">
+<pre class="asciiFret v4" data-title="vertical, 4 frets">
+   ^^   
+ |||||| 
+ |o|||| 
+ o|||oo 
+ |||||| 
+        
+</pre>
+</div> <!-- end: .fretboard_instance -->
+
+<div class="fretboard_instance">
+<pre class="asciiFret v5" data-title="vertical, 5 frets">
+ xx^    
+ |||||| 
+ |||o|| 
+ ||||o| 
+ |||||| 
+ |||||o 
+        
+</pre>
+</div> <!-- end: .fretboard_instance -->
+
+<div class="fretboard_instance">
+<pre class="asciiFret v7" data-title="vertical, 7 frets">
+ x      
+ |||||| 
+ |||||| 
+ |||||| 
+ |(===) 
+ ||||o| 
+ ||oo|| 
+ |||||| 
+        
+</pre>
+</div> <!-- end: .fretboard_instance -->
+
+<div class="fretboard_instance">
+<pre class="asciiFret v9" data-title="vertical, 9 frets">
+ x      
+ |||||| 
+ |||||| 
+ |||||| 
+ |||||| 
+ |||||| 
+ |(==)| 
+ |||||| 
+ ||(=)| 
+ |||||| 
+        
+</pre>
+</div> <!-- end: .fretboard_instance -->
+
+<div class="fretboard_instance">
+<pre class="asciiFret v12" data-title="vertical, 12 frets">
+ xx     
+ |||||| 
+ |||||| 
+ |||||| 
+ |||||| 
+ |||||| 
+ |||||| 
+ |||||| 
+ ||||o| 
+ |||o|| 
+ ||o||o 
+ |||||| 
+ |||||| 
+        
+</pre>
+</div> <!-- end: .fretboard_instance -->
+
+<div class="fretboard_instance">
+<pre class="asciiFret v15" data-title="vertical, 15 frets">
+ xxx x  
+ |||||| 
+ |||||| 
+ |||||| 
+ |||||| 
+ |||||| 
+ |||||| 
+ |||||| 
+ |||||| 
+ |||||| 
+ |||||| 
+ |||||| 
+ |||||| 
+ |||||| 
+ |||o|o 
+ |||||| 
+        
+</pre>
+</div> <!-- end: .fretboard_instance -->
 
 
+
+
+
+      </div> <!-- end: .content -->
 
   </body>
 </html>

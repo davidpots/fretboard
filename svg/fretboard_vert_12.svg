@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="416px"
+   height="1120px" viewBox="0 0 416 1120" enable-background="new 0 0 416 1120" xml:space="preserve">
+  <g class="fretb_neckBG">
+    <rect x="74" y="64" fill="#E6E7E8" width="268" height="992"/>
+  </g>
+  <g class="fretb_frets">
+    <rect x="74" y="76" fill="#BCBEC0" width="268" height="8"/>
+    <rect x="74" y="156" fill="#BCBEC0" width="268" height="8"/>
+    <rect x="74" y="236" fill="#BCBEC0" width="268" height="8"/>
+    <rect x="74" y="316" fill="#BCBEC0" width="268" height="8"/>
+    <rect x="74" y="396" fill="#BCBEC0" width="268" height="8"/>
+    <rect x="74" y="476" fill="#BCBEC0" width="268" height="8"/>
+    <rect x="74" y="556" fill="#BCBEC0" width="268" height="8"/>
+    <rect x="74" y="636" fill="#BCBEC0" width="268" height="8"/>
+    <rect x="74" y="716" fill="#BCBEC0" width="268" height="8"/>
+    <rect x="74" y="796" fill="#BCBEC0" width="268" height="8"/>
+    <rect x="74" y="876" fill="#BCBEC0" width="268" height="8"/>
+    <rect x="74" y="956" fill="#BCBEC0" width="268" height="8"/>
+    <rect x="74" y="1036" fill="#BCBEC0" width="268" height="8"/>
+  </g>
+  <g class="fretb_top">
+    <rect id="Top_Lip_3_" x="74" y="64" fill="#58595B" width="268" height="20"/>
+  </g>
+  <g class="fretb_strings">
+    <rect x="126" y="64" fill="#58595B" width="8" height="992"/>
+    <rect x="74" y="64" fill="#58595B" width="8" height="992"/>
+    <rect x="230" y="64" fill="#58595B" width="8" height="992"/>
+    <rect x="178" y="64" fill="#58595B" width="8" height="992"/>
+    <rect x="334" y="64" fill="#58595B" width="8" height="992"/>
+    <rect x="282" y="64" fill="#58595B" width="8" height="992"/>
+  </g>
+</svg>

@@ -7,13 +7,14 @@
         .container {
           max-width: 320px;
           margin: 0 auto;
-          background-color: #ddd;
         }
         .svg_wrapper {
+          background-color: #fff;
         	position: relative;
         	height: 0;
-          padding-top: 106.94444%;
         }
+        .svg_wrapper.f5 { padding-top: 106.94444%; }
+        .svg_wrapper.f4 { padding-top: 91.666666666%; }
         .svg_wrapper svg.fretboard_bg {
           position: absolute;
           top: 0; left: 0;

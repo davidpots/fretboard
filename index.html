@@ -19,116 +19,111 @@
   </head>
   <body>
 
-      <div class="content">
+    <h1>Fretboard</h1>
+    <p>HTML/SVG Scale Charts &amp; Chord Diagrams for Guitar, Ukulele, and similar instruments. In development, coming very soon. For some thoughts so far, <a href="http://davidpots.com/blog/guitar-fretboard-ascii-svg/">check out my brief writeup</a>.
+    <p>The order I'm tackling things is as follows. Once I get all this done, I'll work on exciting ways to package together the product and build a compelling user experience for referencing the chords and scales that are often sought after.</p>
+    <ol>
+      <li><strike>Guitar chord diagrams (vertical fretboard, various sizes)</strike></li>
+      <li>Ukulele chord diagrams (vertical fretboard, various sizes)</li>
+      <li>Guitar scale diagrams (horizontal fretboard, various sizes)</li>
+      <li>Ukulele scale diagrams (horizontal fretboard, various sizes)</li>
+    </ol>
 
-<h1>Fretboard</h1>
-<p>HTML/SVG Scale Charts &amp; Chord Diagrams for Guitar, Ukulele, and similar instruments. In development, coming very soon. For some thoughts so far, <a href="http://davidpots.com/blog/guitar-fretboard-ascii-svg/">check out my brief writeup</a>.
-<p>The order I'm tackling things is as follows. Once I get all this done, I'll work on exciting ways to package together the product and build a compelling user experience for referencing the chords and scales that are often sought after.</p>
-<ol>
-  <li><strike>Guitar chord diagrams (vertical fretboard, various sizes)</strike></li>
-  <li>Ukulele chord diagrams (vertical fretboard, various sizes)</li>
-  <li>Guitar scale diagrams (horizontal fretboard, various sizes)</li>
-  <li>Ukulele scale diagrams (horizontal fretboard, various sizes)</li>
-</ol>
+    <div class="container">
 
-<div class="fretboard_instance">
-<pre class="asciiFret v4" data-title="vertical, 4 frets">
-   ^^   
- |||||| 
- |o|||| 
- o|||oo 
- |||||| 
-        
-</pre>
-</div> <!-- end: .fretboard_instance -->
-
-
-<div class="fretboard_instance">
-<pre class="asciiFret v5" data-title="vertical, 5 frets">
- xx^    
- |||||| 
- |||o|| 
- ||||o| 
- |||||| 
- |||||o 
-        
-</pre>
-</div> <!-- end: .fretboard_instance -->
-
-<div class="fretboard_instance">
-<pre class="asciiFret v7" data-title="vertical, 7 frets">
- x      
- |||||| 
- |||||| 
- |||||| 
- |(===) 
- ||||o| 
- ||oo|| 
- |||||| 
-        
-</pre>
-</div> <!-- end: .fretboard_instance -->
+      <div class="svg_wrapper">
+        <svg class="fretboard_bg" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+        	 viewBox="0 0 576 616" enable-background="new 0 0 576 616" xml:space="preserve">
+          <g class="fret_bg">
+          	<rect x="102" y="72" fill="#FFFFFF" width="372" height="472"/>
+          </g>
+          <g class="frets">
+        		<rect x="108" y="84" fill="#C7C8CA" width="360" height="8"/>
+        		<rect x="108" y="172" fill="#C7C8CA" width="360" height="8"/>
+        		<rect x="108" y="260" fill="#C7C8CA" width="360" height="8"/>
+        		<rect x="108" y="348" fill="#C7C8CA" width="360" height="8"/>
+        		<rect x="108" y="436" fill="#C7C8CA" width="360" height="8"/>
+        		<rect x="108" y="524" fill="#C7C8CA" width="360" height="8"/>
+          </g>
+          <g class="strings">
+        		<rect x="102" y="72" width="12" height="472"/>
+        		<rect x="174" y="72" width="12" height="472"/>
+        		<rect x="246" y="72" width="12" height="472"/>
+        		<rect x="318" y="72" width="12" height="472"/>
+        		<rect x="390" y="72" width="12" height="472"/>
+        		<rect x="462" y="72" width="12" height="472"/>
+          </g>
+          <g class="nut">
+          	<rect x="102" y="72" width="368" height="20"/>
+          </g>
+        </svg>
 
 
-<div class="fretboard_instance">
-<pre class="asciiFret v9" data-title="vertical, 9 frets">
- x      
- |||||| 
- |||||| 
- |||||| 
- |||||| 
- |||||| 
- |(==)| 
- |||||| 
- ||(=)| 
- |||||| 
-        
-</pre>
-</div> <!-- end: .fretboard_instance -->
+<div class="cells">
+
+      <div class="cell"><svg version="1.1"  xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet" width="100%" height="100%" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 72 88" enable-background="new 0 0 72 88" xml:space="preserve"><circle fill="none" cx="36" cy="44" r="32"/></svg></div>
+      <div class="cell"><svg version="1.1"  xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 72 88" enable-background="new 0 0 72 88" xml:space="preserve"><circle fill="none" cx="36" cy="44" r="32"/></svg></div>
+      <div class="cell"><svg version="1.1"  xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 72 88" enable-background="new 0 0 72 88" xml:space="preserve"><circle fill="none" cx="36" cy="44" r="32"/></svg></div>
+      <div class="cell"><svg version="1.1"  xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 72 88" enable-background="new 0 0 72 88" xml:space="preserve"><circle fill="none" cx="36" cy="44" r="32"/></svg></div>
+      <div class="cell"><svg version="1.1"  xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 72 88" enable-background="new 0 0 72 88" xml:space="preserve"><circle fill="none" cx="36" cy="44" r="32"/></svg></div>
+      <div class="cell"><svg version="1.1"  xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 72 88" enable-background="new 0 0 72 88" xml:space="preserve"><circle fill="none" cx="36" cy="44" r="32"/></svg></div>
+      <div class="cell"><svg version="1.1"  xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 72 88" enable-background="new 0 0 72 88" xml:space="preserve"><circle fill="none" cx="36" cy="44" r="32"/></svg></div>
+      <div class="cell"><svg version="1.1"  xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 72 88" enable-background="new 0 0 72 88" xml:space="preserve"><circle fill="none" cx="36" cy="44" r="32"/></svg></div>
+      <div class="cell"><svg version="1.1"  xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 72 88" enable-background="new 0 0 72 88" xml:space="preserve"><circle fill="none" cx="36" cy="44" r="32"/></svg></div>
+      <div class="cell"><svg version="1.1"  xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 72 88" enable-background="new 0 0 72 88" xml:space="preserve"><circle fill="#27AAE1" cx="36" cy="44" r="32"/></svg></div>
+      <div class="cell"><svg version="1.1"  xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 72 88" enable-background="new 0 0 72 88" xml:space="preserve"><circle fill="#27AAE1" cx="36" cy="44" r="32"/></svg></div>
+      <div class="cell"><svg version="1.1"  xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 72 88" enable-background="new 0 0 72 88" xml:space="preserve"><circle fill="#27AAE1" cx="36" cy="44" r="32"/></svg></div>
+      <div class="cell"><svg version="1.1"  xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 72 88" enable-background="new 0 0 72 88" xml:space="preserve"><circle fill="#27AAE1" cx="36" cy="44" r="32"/></svg></div>
+      <div class="cell"><svg version="1.1"  xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 72 88" enable-background="new 0 0 72 88" xml:space="preserve"><circle fill="#27AAE1" cx="36" cy="44" r="32"/></svg></div>
+      <div class="cell"><svg version="1.1"  xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 72 88" enable-background="new 0 0 72 88" xml:space="preserve"><circle fill="#27AAE1" cx="36" cy="44" r="32"/></svg></div>
+      <div class="cell"><svg version="1.1"  xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet" width="100%" height="100%" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 72 88" enable-background="new 0 0 72 88" xml:space="preserve"><circle fill="none" cx="36" cy="44" r="32"/></svg></div>
+      <div class="cell"><svg version="1.1"  xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 72 88" enable-background="new 0 0 72 88" xml:space="preserve"><circle fill="none" cx="36" cy="44" r="32"/></svg></div>
+      <div class="cell"><svg version="1.1"  xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 72 88" enable-background="new 0 0 72 88" xml:space="preserve"><circle fill="#27AAE1" cx="36" cy="44" r="32"/></svg></div>
+      <div class="cell"><svg version="1.1"  xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 72 88" enable-background="new 0 0 72 88" xml:space="preserve"><circle fill="#27AAE1" cx="36" cy="44" r="32"/></svg></div>
+      <div class="cell"><svg version="1.1"  xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 72 88" enable-background="new 0 0 72 88" xml:space="preserve"><circle fill="#27AAE1" cx="36" cy="44" r="32"/></svg></div>
+      <div class="cell"><svg version="1.1"  xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 72 88" enable-background="new 0 0 72 88" xml:space="preserve"><circle fill="#27AAE1" cx="36" cy="44" r="32"/></svg></div>
+      <div class="cell"><svg version="1.1"  xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 72 88" enable-background="new 0 0 72 88" xml:space="preserve"><circle fill="#27AAE1" cx="36" cy="44" r="32"/></svg></div>
+      <div class="cell"><svg version="1.1"  xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 72 88" enable-background="new 0 0 72 88" xml:space="preserve"><circle fill="#27AAE1" cx="36" cy="44" r="32"/></svg></div>
+      <div class="cell"><svg version="1.1"  xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 72 88" enable-background="new 0 0 72 88" xml:space="preserve"><circle fill="none" cx="36" cy="44" r="32"/></svg></div>
+      <div class="cell"><svg version="1.1"  xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 72 88" enable-background="new 0 0 72 88" xml:space="preserve"><circle fill="none" cx="36" cy="44" r="32"/></svg></div>
+      <div class="cell"><svg version="1.1"  xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 72 88" enable-background="new 0 0 72 88" xml:space="preserve"><circle fill="#27AAE1" cx="36" cy="44" r="32"/></svg></div>
+      <div class="cell"><svg version="1.1"  xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 72 88" enable-background="new 0 0 72 88" xml:space="preserve"><circle fill="#27AAE1" cx="36" cy="44" r="32"/></svg></div>
+      <div class="cell"><svg version="1.1"  xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 72 88" enable-background="new 0 0 72 88" xml:space="preserve"><circle fill="#27AAE1" cx="36" cy="44" r="32"/></svg></div>
+      <div class="cell"><svg version="1.1"  xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 72 88" enable-background="new 0 0 72 88" xml:space="preserve"><circle fill="#27AAE1" cx="36" cy="44" r="32"/></svg></div>
+      <div class="cell"><svg version="1.1"  xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 72 88" enable-background="new 0 0 72 88" xml:space="preserve"><circle fill="#27AAE1" cx="36" cy="44" r="32"/></svg></div>
+      <div class="cell"><svg version="1.1"  xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet" width="100%" height="100%" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 72 88" enable-background="new 0 0 72 88" xml:space="preserve"><circle fill="#27AAE1" cx="36" cy="44" r="32"/></svg></div>
+      <div class="cell"><svg version="1.1"  xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 72 88" enable-background="new 0 0 72 88" xml:space="preserve"><circle fill="none" cx="36" cy="44" r="32"/></svg></div>
+      <div class="cell"><svg version="1.1"  xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 72 88" enable-background="new 0 0 72 88" xml:space="preserve"><circle fill="none" cx="36" cy="44" r="32"/></svg></div>
+      <div class="cell"><svg version="1.1"  xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 72 88" enable-background="new 0 0 72 88" xml:space="preserve"><circle fill="#27AAE1" cx="36" cy="44" r="32"/></svg></div>
+      <div class="cell"><svg version="1.1"  xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 72 88" enable-background="new 0 0 72 88" xml:space="preserve"><circle fill="#27AAE1" cx="36" cy="44" r="32"/></svg></div>
+      <div class="cell"><svg version="1.1"  xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 72 88" enable-background="new 0 0 72 88" xml:space="preserve"><circle fill="#27AAE1" cx="36" cy="44" r="32"/></svg></div>
+      <div class="cell"><svg version="1.1"  xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 72 88" enable-background="new 0 0 72 88" xml:space="preserve"><circle fill="#27AAE1" cx="36" cy="44" r="32"/></svg></div>
+      <div class="cell"><svg version="1.1"  xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 72 88" enable-background="new 0 0 72 88" xml:space="preserve"><circle fill="#27AAE1" cx="36" cy="44" r="32"/></svg></div>
+      <div class="cell"><svg version="1.1"  xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 72 88" enable-background="new 0 0 72 88" xml:space="preserve"><circle fill="#27AAE1" cx="36" cy="44" r="32"/></svg></div>
+      <div class="cell"><svg version="1.1"  xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 72 88" enable-background="new 0 0 72 88" xml:space="preserve"><circle fill="none" cx="36" cy="44" r="32"/></svg></div>
+      <div class="cell"><svg version="1.1"  xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 72 88" enable-background="new 0 0 72 88" xml:space="preserve"><circle fill="none" cx="36" cy="44" r="32"/></svg></div>
+      <div class="cell"><svg version="1.1"  xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 72 88" enable-background="new 0 0 72 88" xml:space="preserve"><circle fill="#27AAE1" cx="36" cy="44" r="32"/></svg></div>
+      <div class="cell"><svg version="1.1"  xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 72 88" enable-background="new 0 0 72 88" xml:space="preserve"><circle fill="#27AAE1" cx="36" cy="44" r="32"/></svg></div>
+      <div class="cell"><svg version="1.1"  xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 72 88" enable-background="new 0 0 72 88" xml:space="preserve"><circle fill="#27AAE1" cx="36" cy="44" r="32"/></svg></div>
+      <div class="cell"><svg version="1.1"  xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 72 88" enable-background="new 0 0 72 88" xml:space="preserve"><circle fill="#27AAE1" cx="36" cy="44" r="32"/></svg></div>
+      <div class="cell"><svg version="1.1"  xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 72 88" enable-background="new 0 0 72 88" xml:space="preserve"><circle fill="#27AAE1" cx="36" cy="44" r="32"/></svg></div>
+      <div class="cell"><svg version="1.1"  xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 72 88" enable-background="new 0 0 72 88" xml:space="preserve"><circle fill="#27AAE1" cx="36" cy="44" r="32"/></svg></div>
+</div>
 
 
-<div class="fretboard_instance">
-<pre class="asciiFret v12" data-title="vertical, 12 frets">
- xx     
- |||||| 
- |||||| 
- |||||| 
- |||||| 
- |||||| 
- |||||| 
- |||||| 
- ||||o| 
- |||o|| 
- ||o||o 
- |||||| 
- |||||| 
-        
-</pre>
-</div> <!-- end: .fretboard_instance -->
 
-<div class="fretboard_instance">
-<pre class="asciiFret v15" data-title="vertical, 15 frets">
- xxx x  
- |||||| 
- |||||| 
- |||||| 
- |||||| 
- |||||| 
- |||||| 
- |||||| 
- |||||| 
- |||||| 
- |||||| 
- |||||| 
- |||||| 
- |||||| 
- |||o|o 
- |||||| 
-        
-</pre>
-</div> <!-- end: .fretboard_instance -->
 
-      </div> <!-- end: .content -->
+
+
+
+
+      </div>
+      
+
+      
+      
+
+    </div>
 
   </body>
 </html>

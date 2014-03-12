@@ -1,4 +1,4 @@
-var dot = '<svg width="72" height="88" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 72 88" enable-background="new 0 0 72 88" xml:space="preserve">\
+var dot = '<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 72 88" enable-background="new 0 0 72 88" xml:space="preserve">\
             <circle class="fretb_dot" fill="#27AAE1" cx="36" cy="44" r="30"/>\
           </svg>';
 

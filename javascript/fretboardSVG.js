@@ -1,16 +1,16 @@
-var dot = '<svg width="100%" height="100%" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 72 88" enable-background="new 0 0 72 88" xml:space="preserve">\
+var dot = '<svg width="72" height="88" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 72 88" enable-background="new 0 0 72 88" xml:space="preserve">\
             <circle class="fretb_dot" fill="#27AAE1" cx="36" cy="44" r="30"/>\
           </svg>';
 
-var dotWideLeft = '<svg width="100%" height="100%" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 72 88" enable-background="new 0 0 72 88" xml:space="preserve">\
+var dotWideLeft = '<svg width="72" height="88" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 72 88" enable-background="new 0 0 72 88" xml:space="preserve">\
                     	<path fill="#27AAE1" d="M36,16C20.537,16,8,28.537,8,44s12.537,28,28,28v0.125h36V16H36z"/>\
                     </svg>';
 
-var dotWideRight = '<svg width="100%" height="100%" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 72 88" enable-background="new 0 0 72 88" xml:space="preserve">\
+var dotWideRight = '<svg width="72" height="88" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 72 88" enable-background="new 0 0 72 88" xml:space="preserve">\
                     	<path fill="#27AAE1" d="M36,72.125c15.463,0,28-12.537,28-28s-12.537-28-28-28V16H0l0,56.125H36z"/>\
                     </svg>';
 
-var dotWideMiddle = '<svg width="100%" height="100%" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 72 88" enable-background="new 0 0 72 88" xml:space="preserve">\
+var dotWideMiddle = '<svg width="72" height="88" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 72 88" enable-background="new 0 0 72 88" xml:space="preserve">\
                  		    <rect y="16" fill="#27AAE1" width="72" height="56"/>\
                       </svg>';
 

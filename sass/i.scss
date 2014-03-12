@@ -39,7 +39,7 @@
         }
 
 /* Fretboard Cell Sizing */
-        .cell { display: block; float: left; width: percentage( $cell_width / $fretb_width ); }
+        .cell { display: block; float: left; width: percentage( $cell_width / $fretb_width ); max-height: 100%; }
         .v4 .cell  { height: percentage( $cell_height / $fretb_height_v4 ); }
         .v5 .cell  { height: percentage( $cell_height / $fretb_height_v5 ); }
         .v7 .cell  { height: percentage( $cell_height / $fretb_height_v7 ); }

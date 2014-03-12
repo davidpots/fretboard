@@ -7,7 +7,7 @@
         .fretboard_wrapper {
             display: block;
             position: relative;
-            width: #{$fretb_width}px; // Needs to be an equal divisor of the fretboard width: half, quarter, etc
+            width: #{$fretb_width / 2}px; // Needs to be an equal divisor of the fretboard width: half, quarter, etc
             margin: 0 auto 32px;
             background: #fff;
         }

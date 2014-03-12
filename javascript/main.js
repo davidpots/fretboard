@@ -9,7 +9,7 @@ var switchList = {  "o" : "<div class='cell dot'>"+dot+"</div>",
                     "=" : "<div class='cell'>"+dotWideMiddle+"</div>",
                     "^" : "<div class='cell'>"+string_o+"</div>",
                     "x" : "<div class='cell'>"+string_x+"</div>",
-                    "|" : "<div class='cell empty'></div>",
+                    "|" : "<div class='cell empty'>"+dotEmpty+"</div>",
                     " " : "<div class='cell empty'></div>" }
 
 var thisFretboard;

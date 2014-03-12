@@ -47,6 +47,8 @@
         .v12 .cell { height: percentage( $cell_height / $fretb_height_v12 ); }
         .v15 .cell { height: percentage( $cell_height / $fretb_height_v15 ); }
 
+        .v5 { padding-bottom: 8px; }
+
 /* Fretboard Element Styles */
         .cell.dot .fretb_dot { fill: #27a9e1; }
         .cell.empty          { /* no styles needed */ }

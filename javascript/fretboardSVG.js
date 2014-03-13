@@ -1,10 +1,10 @@
-var dotEmpty = '<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 72 88" enable-background="new 0 0 72 88" xml:space="preserve">\
-            <circle class="fretb_dot_empty" fill="none" cx="36" cy="44" r="30"/>\
-          </svg>';
-          
-var dot = '<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 72 88" enable-background="new 0 0 72 88" xml:space="preserve">\
-            <circle class="fretb_dot" fill="#27AAE1" cx="36" cy="44" r="30"/>\
-          </svg>';
+var dotEmpty = '<svg version="1.1"  xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 72 88" enable-background="new 0 0 72 88" xml:space="preserve">\
+                    <circle class="fretb_dot_empty" fill="none" cx="36" cy="44" r="32"/>\
+                 </svg>';
+
+var dot = '<svg version="1.1"  xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 72 88" enable-background="new 0 0 72 88" xml:space="preserve">\
+              <circle class="fretb_dot" fill="#27AAE1" cx="36" cy="44" r="32"/>\
+           </svg>';
 
 var dotWideLeft = '<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 72 88" enable-background="new 0 0 72 88" xml:space="preserve">\
                     	<path fill="#27AAE1" d="M36,16C20.537,16,8,28.537,8,44s12.537,28,28,28v0.125h36V16H36z"/>\
@@ -18,23 +18,15 @@ var dotWideMiddle = '<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns
                  		    <rect y="16" fill="#27AAE1" width="72" height="56"/>\
                       </svg>';
 
-var string_o = '<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"\
-                       viewBox="0 0 52 80" enable-background="new 0 0 52 80" xml:space="preserve">\
-                  <g>\
-                     <path fill="#27AAE1" d="M26,24c5.514,0,10,4.486,10,10s-4.486,10-10,10s-10-4.486-10-10S20.486,24,26,24 M26,16\
-                     	c-9.94,0-18,8.06-18,18s8.06,18,18,18s18-8.06,18-18S35.94,16,26,16L26,16z"/>\
-                  </g>\
+var string_o = '<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 72 88" enable-background="new 0 0 72 88" xml:space="preserve">\
+                  <path fill="#27AAE1" d="M36,21c6.065,0,11,4.935,11,11s-4.935,11-11,11s-11-4.935-11-11S29.935,21,36,21 M36,14c-9.94,0-18,8.06-18,18s8.06,18,18,18s18-8.06,18-18S45.94,14,36,14L36,14z"/>\
                 </svg>';
 
-var string_x = '<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"\
-                       viewBox="0 0 52 80" enable-background="new 0 0 52 80" xml:space="preserve">\
-                  <path fill="#27AAE1" d="M41.067,43.831L31.236,34l9.831-9.831c-1.365-2.087-3.149-3.871-5.236-5.236L26,28.764l-9.831-9.831\
-                     c-2.087,1.365-3.871,3.149-5.236,5.236L20.764,34l-9.831,9.831c1.365,2.087,3.149,3.871,5.236,5.236L26,39.236l9.831,9.831\
-                     C37.918,47.702,39.702,45.918,41.067,43.831z"/>\
+var string_x = '<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 72 88" enable-background="new 0 0 72 88" xml:space="preserve">\
+                  <path fill="#27AAE1" d="M51.067,41.831L41.236,32l9.831-9.831c-1.365-2.087-3.149-3.871-5.236-5.236L36,26.764l-9.831-9.831c-2.087,1.365-3.871,3.149-5.236,5.236L30.764,32l-9.831,9.831c1.365,2.087,3.149,3.871,5.236,5.236L36,37.236l9.831,9.831C47.918,45.702,49.702,43.918,51.067,41.831z"/>\
                 </svg>';
 
-var fretb_vert_4 = '<svg class="fretboard_svg" width="576" height="528" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"\
-                    	 viewBox="0 0 576 528" enable-background="new 0 0 576 528" xml:space="preserve">\
+var fretb_vert_4 = '<svg class="fretboard_bg" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 576 528" enable-background="new 0 0 576 528" xml:space="preserve">\
                       <g class="fret_bg">\
                     		<rect x="102" y="72" fill="#FFFFFF" width="372" height="384"/>\
                       </g>\
@@ -58,8 +50,7 @@ var fretb_vert_4 = '<svg class="fretboard_svg" width="576" height="528" version=
                       </g>\
                     </svg>';
 
-var fretb_vert_5 = '<svg class="fretboard_svg" width="100%" height="100%" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"\
-                    	 viewBox="0 0 576 616" enable-background="new 0 0 576 616" xml:space="preserve">\
+var fretb_vert_5 = '<svg class="fretboard_bg" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 576 616" enable-background="new 0 0 576 616" xml:space="preserve">\
                       <g class="fret_bg">\
                       	<rect x="102" y="72" fill="#FFFFFF" width="372" height="472"/>\
                       </g>\
@@ -84,8 +75,7 @@ var fretb_vert_5 = '<svg class="fretboard_svg" width="100%" height="100%" versio
                       </g>\
                     </svg>';
 
-var fretb_vert_7 = '<svg class="fretboard_svg" width="576" height="792" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"\
-                    	 viewBox="0 0 576 792" enable-background="new 0 0 576 792" xml:space="preserve">\
+var fretb_vert_7 = '<svg class="fretboard_bg" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 576 792" enable-background="new 0 0 576 792" xml:space="preserve">\
                       <g class="fret_bg">\
                     		<rect x="102" y="71" fill="#FFFFFF" width="372" height="649"/>\
                       </g>\
@@ -112,8 +102,7 @@ var fretb_vert_7 = '<svg class="fretboard_svg" width="576" height="792" version=
                       </g>\
                     </svg>';
 
-var fretb_vert_9 = '<svg class="fretboard_svg" width="576" height="968" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"\
-                    	 viewBox="0 0 576 968" enable-background="new 0 0 576 968" xml:space="preserve">\
+var fretb_vert_9 = '<svg class="fretboard_bg" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 576 968" enable-background="new 0 0 576 968" xml:space="preserve">\
                       <g class="fret_bg">\
                     		<rect x="102" y="72" fill="#FFFFFF" width="372" height="824"/>\
                       </g>\
@@ -142,8 +131,7 @@ var fretb_vert_9 = '<svg class="fretboard_svg" width="576" height="968" version=
                       </g>\
                     </svg>';
 
-var fretb_vert_12 = '<svg class="fretboard_svg" width="576" height="1232" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"\
-                      	 viewBox="0 0 576 1232" enable-background="new 0 0 576 1232" xml:space="preserve">\
+var fretb_vert_12 = '<svg class="fretboard_bg" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 576 1232" enable-background="new 0 0 576 1232" xml:space="preserve">\
                         <g class="fret_bg">\
                       		<rect x="102" y="72" fill="#FFFFFF" width="372" height="1088"/>\
                         </g>\
@@ -175,8 +163,7 @@ var fretb_vert_12 = '<svg class="fretboard_svg" width="576" height="1232" versio
                         </g>\
                       </svg>';
 
-var fretb_vert_15 = '<svg class="fretboard_svg" width="576" height="1496" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"\
-                      	 viewBox="0 0 576 1496" enable-background="new 0 0 576 1496" xml:space="preserve">\
+var fretb_vert_15 = '<svg class="fretboard_bg" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 576 1496" enable-background="new 0 0 576 1496" xml:space="preserve">\
                         <g class="fret_bg">\
                       	  <rect x="102" y="72" fill="#FFFFFF" width="372" height="1352"/>\
                         </g>\

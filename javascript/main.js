@@ -1,7 +1,4 @@
-var fretboardHTML = '<h3 class="title"></h3><div class="fretboard_wrapper">\
-            <div class="fretboard_pillars"></div>\
-            <div class="fretboard_content"></div>\
-          </div>';
+var fretboardHTML = '<h3 class="title"></h3><div class="svg_wrapper"><div class="cells"></div></div>';
 
 var switchList = {  "o" : "<div class='cell dot'>"+dot+"</div>",
                     "(" : "<div class='cell'>"+dotWideLeft+"</div>",
@@ -10,7 +7,7 @@ var switchList = {  "o" : "<div class='cell dot'>"+dot+"</div>",
                     "^" : "<div class='cell'>"+string_o+"</div>",
                     "x" : "<div class='cell'>"+string_x+"</div>",
                     "|" : "<div class='cell empty'>"+dotEmpty+"</div>",
-                    " " : "<div class='cell empty'></div>" }
+                    " " : "<div class='cell empty'>"+dotEmpty+"</div>" }
 
 var thisFretboard;
 
@@ -71,10 +68,10 @@ $(document).ready(function(){
           }
 
           // Fill the .fretboard with background, content, and a class
-          $(el).find('.fretboard_content')
-            .append(fretb_bg)
-            .append(replacement)
-            .parent().addClass(fretb_class);
+          $(el).find('.svg_wrapper')
+            .prepend(fretb_bg)
+            .addClass(fretb_class);
+          $(el).find('.cells').append(replacement);
 
           // Remove the ASCII fretboard
           $(this).find('.asciiFret').hide();

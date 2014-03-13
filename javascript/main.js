@@ -71,6 +71,11 @@ $(document).ready(function(){
           $(el).find('.svg_wrapper')
             .prepend(fretb_bg)
             .addClass(fretb_class);
+          
+          if ( $(this).find('.asciiFret').hasClass('noNut')  ) {
+            $(el).find('.svg_wrapper').addClass('noNut');
+          }
+
           $(el).find('.cells').append(replacement);
 
           // Remove the ASCII fretboard

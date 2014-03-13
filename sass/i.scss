@@ -13,8 +13,10 @@
         	position: relative;
         	height: 0;
         }
-        .svg_wrapper.f5 { padding-top: 106.94444%; }
-        .svg_wrapper.f4 { padding-top: 91.666666666%; }
+        .svg_wrapper.f4 { padding-top: 91.666666666%; } /* 528/576 */
+        .svg_wrapper.f5 { padding-top: 106.94444%; }    /* 616/576 */
+        .svg_wrapper.f7 { padding-top: 137.5%; }        /* 792/576 */
+
         .svg_wrapper svg.fretboard_bg {
           position: absolute;
           top: 0; left: 0;
@@ -22,8 +24,11 @@
         
         .svg_wrapper .cells { width: 100%; height: 100%; position: absolute; top: 0; left: 0; }
         .svg_wrapper .cell svg { width: 12.5%; float: left; display: block; }
-        .svg_wrapper.f5 .cell svg { height: 14.285714285%; }
-        .svg_wrapper.f4 .cell svg { height: 16.666666666%; }
+
+        .svg_wrapper.f4 .cell svg { height: 16.666666666%; }  /* 88/528 */
+        .svg_wrapper.f5 .cell svg { height: 14.285714285%; }  /* 88/616 */
+        .svg_wrapper.f7 .cell svg { height: 11.111111111%; }  /* 88/792 */
+
 
 /* Fretboard BG */
         

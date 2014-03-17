@@ -1,9 +1,25 @@
 // Horizontal
 
+      // Cell size
+      $cell_width_h:  88;
+      $cell_height_h: 72;
+
+      // Universal height
+      $fretb_h_height:  576;
+
+      // Variable widths
+      $fretb_width_h5: 616; // 5 frets
+      $fretb_width_h6: 704; // 6 frets
+      $fretb_width_h7: 792; // 7 frets
+
 // Vertical
-      
+
+      // Cell size
+      $cell_width_v:  72;
+      $cell_height_v: 88;
+
       // Universal width
-      $fretb_width:  576;
+      $fretb_v_width:  576;
 
       // Variable heights
       $fretb_height_v15: 1496; // 15 frets
@@ -12,7 +28,3 @@
       $fretb_height_v7:  792;  // 7 frets
       $fretb_height_v5:  616;  // 5 frets
       $fretb_height_v4:  528;  // 4 frets
-
-      // Cell size
-      $cell_width:  72;
-      $cell_height: 88;

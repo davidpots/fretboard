@@ -13,27 +13,41 @@
         	position: relative;
         	height: 0;
         }
-        .svg_wrapper.v4  { padding-top: percentage( $fretb_height_v4  / $fretb_width ); }
-        .svg_wrapper.v5  { padding-top: percentage( $fretb_height_v5  / $fretb_width ); }
-        .svg_wrapper.v7  { padding-top: percentage( $fretb_height_v7  / $fretb_width ); }
-        .svg_wrapper.v9  { padding-top: percentage( $fretb_height_v9  / $fretb_width ); }
-        .svg_wrapper.v12 { padding-top: percentage( $fretb_height_v12 / $fretb_width ); }
-        .svg_wrapper.v15 { padding-top: percentage( $fretb_height_v15 / $fretb_width ); }
 
         .svg_wrapper svg.fretboard_bg {
           position: absolute;
           top: 0; left: 0;
         }
-        
-        .svg_wrapper .cells { width: 100%; height: 100%; position: absolute; top: 0; left: 0; }
-        .svg_wrapper .cell svg { width: percentage( $cell_width / $fretb_width ); float: left; display: block; }
 
-        .svg_wrapper.v4  .cell svg { height: percentage( $cell_height / $fretb_height_v4  ); }
-        .svg_wrapper.v5  .cell svg { height: percentage( $cell_height / $fretb_height_v5  ); }
-        .svg_wrapper.v7  .cell svg { height: percentage( $cell_height / $fretb_height_v7  ); }
-        .svg_wrapper.v9  .cell svg { height: percentage( $cell_height / $fretb_height_v9  ); }
-        .svg_wrapper.v12 .cell svg { height: percentage( $cell_height / $fretb_height_v12 ); }
-        .svg_wrapper.v15 .cell svg { height: percentage( $cell_height / $fretb_height_v15 ); }
+        .svg_wrapper .cells { width: 100%; height: 100%; position: absolute; top: 0; left: 0; }
+
+        // Verticals
+        .svg_wrapper.v4  { padding-top: percentage( $fretb_height_v4  / $fretb_v_width ); }
+        .svg_wrapper.v5  { padding-top: percentage( $fretb_height_v5  / $fretb_v_width ); }
+        .svg_wrapper.v7  { padding-top: percentage( $fretb_height_v7  / $fretb_v_width ); }
+        .svg_wrapper.v9  { padding-top: percentage( $fretb_height_v9  / $fretb_v_width ); }
+        .svg_wrapper.v12 { padding-top: percentage( $fretb_height_v12 / $fretb_v_width ); }
+        .svg_wrapper.v15 { padding-top: percentage( $fretb_height_v15 / $fretb_v_width ); }
+        
+        .svg_wrapper.v .cell svg { width: percentage( $cell_width_v / $fretb_v_width ); float: left; display: block; }
+
+        .svg_wrapper.v4  .cell svg { height: percentage( $cell_height_v / $fretb_height_v4  ); }
+        .svg_wrapper.v5  .cell svg { height: percentage( $cell_height_v / $fretb_height_v5  ); }
+        .svg_wrapper.v7  .cell svg { height: percentage( $cell_height_v / $fretb_height_v7  ); }
+        .svg_wrapper.v9  .cell svg { height: percentage( $cell_height_v / $fretb_height_v9  ); }
+        .svg_wrapper.v12 .cell svg { height: percentage( $cell_height_v / $fretb_height_v12 ); }
+        .svg_wrapper.v15 .cell svg { height: percentage( $cell_height_v / $fretb_height_v15 ); }
+
+        // Horizontals
+        .svg_wrapper.h5  { padding-top: percentage( $fretb_h_height  / $fretb_width_h5 ); }
+        .svg_wrapper.h6  { padding-top: percentage( $fretb_h_height  / $fretb_width_h6 ); }
+        .svg_wrapper.h7  { padding-top: percentage( $fretb_h_height  / $fretb_width_h7 ); }
+
+        .svg_wrapper.h .cell svg { height: percentage( $cell_height_h / $fretb_h_height ); float: left; display: block; }
+        
+        .svg_wrapper.h5 .cell svg { width: percentage( $cell_width_h / $fretb_width_h5  ); }
+        .svg_wrapper.h6 .cell svg { width: percentage( $cell_width_h / $fretb_width_h6  ); }
+        .svg_wrapper.h7 .cell svg { width: percentage( $cell_width_h / $fretb_width_h7  ); }
 
 
 /* Fretboard Element Styles */

@@ -9,9 +9,12 @@
           margin: 0 auto;
         }
         .container_h {
-          max-width: 480px;
+          max-width: 576px;
           margin: 0 auto;
         }
+                @media all and (max-width: 383px) { .container_h { max-width: 288px; } }
+                @media all and (max-width: 576px) { .container_h { width: 384px; } }
+        
         .svg_wrapper {
           background-color: #fff;
         	position: relative;

@@ -231,29 +231,29 @@ var fretb_horiz_5 = '<svg class="fretboard_bg" version="1.1" xmlns="http://www.w
                         </g>\
                       </svg>';
 
-var fretb_horiz_6 = '<svg class="fretboard_bg" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 704 576" enable-background="new 0 0 704 576" xml:space="preserve">\
+var fretb_horiz_6 = '<svg class="fretboard_bg" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 768 576" enable-background="new 0 0 768 576" xml:space="preserve">\
                         <g class="fret_bg">\
-                      		<rect x="72" y="102" fill="#FFFFFF" width="560" height="372"/>\
+                          <rect x="78" y="102" fill="#FFFFFF" width="608" height="372"/>\
                         </g>\
                         <g class="frets">\
-                          <rect x="84" y="108" fill="#C7C8CA" width="8" height="360"/>\
-                          <rect x="172" y="108" fill="#C7C8CA" width="8" height="360"/>\
-                          <rect x="260" y="108" fill="#C7C8CA" width="8" height="360"/>\
-                          <rect x="348" y="108" fill="#C7C8CA" width="8" height="360"/>\
-                          <rect x="436" y="108" fill="#C7C8CA" width="8" height="360"/>\
-                          <rect x="524" y="108" fill="#C7C8CA" width="8" height="360"/>\
-                          <rect x="612" y="108" fill="#C7C8CA" width="8" height="360"/>\
+                          <rect x="92" y="108" fill="#C7C8CA" width="8" height="360"/>\
+                          <rect x="188" y="108" fill="#C7C8CA" width="8" height="360"/>\
+                          <rect x="284" y="108" fill="#C7C8CA" width="8" height="360"/>\
+                          <rect x="380" y="108" fill="#C7C8CA" width="8" height="360"/>\
+                          <rect x="476" y="108" fill="#C7C8CA" width="8" height="360"/>\
+                          <rect x="572" y="108" fill="#C7C8CA" width="8" height="360"/>\
+                          <rect x="668" y="108" fill="#C7C8CA" width="8" height="360"/>\
                         </g>\
                         <g class="strings">\
-                          <rect x="72" y="462" width="560" height="12"/>\
-                          <rect x="72" y="390" width="560" height="12"/>\
-                          <rect x="72" y="318" width="560" height="12"/>\
-                          <rect x="72" y="246" width="560" height="12"/>\
-                          <rect x="72" y="174" width="560" height="12"/>\
-                          <rect x="72" y="102" width="560" height="12"/>\
+                          <rect x="78" y="102" width="608" height="12"/>\
+                          <rect x="78" y="174" width="608" height="12"/>\
+                          <rect x="78" y="246" width="608" height="12"/>\
+                          <rect x="78" y="318" width="608" height="12"/>\
+                          <rect x="78" y="390" width="608" height="12"/>\
+                          <rect x="78" y="462" width="608" height="12"/>\
                         </g>\
                         <g class="nut">\
-                        	<rect x="72" y="106" width="20" height="368"/>\
+                          <rect x="78" y="102" width="22" height="372"/>\
                         </g>\
                       </svg>';
 

@@ -27,7 +27,7 @@
           z-index: 0;
         }
 
-        .svg_wrapper .cells { width: 100%; height: 100%; position: absolute; top: 0; left: 0; z-index: 1; overflow: hidden; }
+        .svg_wrapper .cells { width: 100%; height: 100%; position: absolute; top: 0; left: 0; z-index: 1; }
 
         // Verticals
         .svg_wrapper.v4  { padding-top: percentage( $fretb_height_v4  / $fretb_v_width ); }
@@ -51,11 +51,11 @@
         .svg_wrapper.h6  { padding-top: percentage( $fretb_h_height  / $fretb_width_h6 ); }
         .svg_wrapper.h7  { padding-top: percentage( $fretb_h_height  / $fretb_width_h7 ); }
 
-        .svg_wrapper.h .cell { height: percentage( $cell_height_h / $fretb_h_height ); float: left; display: block; z-index: 2; }
+        .svg_wrapper.h .cell svg { height: percentage( $cell_height_h / $fretb_h_height ); float: left; display: block; z-index: 2; }
         
-        .svg_wrapper.h5 .cell { width: percentage( $cell_width_h / $fretb_width_h5  ); }
-        .svg_wrapper.h6 .cell { width: percentage( $cell_width_h / $fretb_width_h6  ); }
-        .svg_wrapper.h7 .cell { width: percentage( $cell_width_h / $fretb_width_h7  ); }
+        .svg_wrapper.h5 .cell svg { width: percentage( $cell_width_h / $fretb_width_h5  ); }
+        .svg_wrapper.h6 .cell svg { width: percentage( $cell_width_h / $fretb_width_h6  ); }
+        .svg_wrapper.h7 .cell svg { width: percentage( $cell_width_h / $fretb_width_h7  ); }
 
 
 /* Fretboard Element Styles */

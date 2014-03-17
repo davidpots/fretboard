@@ -1,15 +1,18 @@
 var fretboardHTML = '<h3 class="title"></h3><div class="svg_wrapper"><div class="cells"></div></div>';
 
 var switchList_v = {  "o" : "<div class='cell dot'>"+dot+"</div>",
-                    "(" : "<div class='cell'>"+dotWideLeft+"</div>",
-                    ")" : "<div class='cell'>"+dotWideRight+"</div>",
-                    "=" : "<div class='cell'>"+dotWideMiddle+"</div>",
-                    "^" : "<div class='cell'>"+string_o+"</div>",
-                    "x" : "<div class='cell'>"+string_x+"</div>",
-                    "|" : "<div class='cell empty'>"+dotEmpty+"</div>",
-                    " " : "<div class='cell empty'>"+dotEmpty+"</div>" }
+                      "*" : "<div class='cell dot faded'>"+dot+"</div>",
+                      "(" : "<div class='cell'>"+dotWideLeft+"</div>",
+                      ")" : "<div class='cell'>"+dotWideRight+"</div>",
+                      "=" : "<div class='cell'>"+dotWideMiddle+"</div>",
+                      "^" : "<div class='cell'>"+string_o+"</div>",
+                      "x" : "<div class='cell'>"+string_x+"</div>",
+                      "|" : "<div class='cell empty'>"+dotEmpty+"</div>",
+                      " " : "<div class='cell empty'>"+dotEmpty+"</div>" }
 
 var switchList_h = {  "o" : "<div class='cell dot'>"+dot_h+"</div>",
+                      "*" : "<div class='cell dot faded'>"+dot_h+"</div>",
+                      "O" : "<div class='cell dot root'>"+dot_h+"</div>",
                       "-" : "<div class='cell empty'>"+dotEmpty_h+"</div>",
                       " " : "<div class='cell empty'>"+dotEmpty_h+"</div>" }
 

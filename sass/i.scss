@@ -51,7 +51,7 @@
         .svg_wrapper.h6  { padding-top: percentage( $fretb_h_height  / $fretb_width_h6 ); }
         .svg_wrapper.h7  { padding-top: percentage( $fretb_h_height  / $fretb_width_h7 ); }
 
-        .svg_wrapper.h .cell svg { height: percentage( $cell_height_h / $fretb_h_height ); float: left; display: block; }
+        .svg_wrapper.h .cell svg { height: percentage( $cell_height_h / $fretb_h_height ); float: left; display: block; z-index: 2; }
         
         .svg_wrapper.h5 .cell svg { width: percentage( $cell_width_h / $fretb_width_h5  ); }
         .svg_wrapper.h6 .cell svg { width: percentage( $cell_width_h / $fretb_width_h6  ); }
@@ -60,6 +60,8 @@
 
 /* Fretboard Element Styles */
         .cell.dot .fretb_dot { fill: #27a9e1; }
+        .cell.dot.root .fretb_dot { fill: #F05A28; }
+        .cell.dot.faded .fretb_dot { opacity: 0.25 }
         .fretboard_bg .fret_bg rect  { fill: #fff; }
         .fretboard_bg .frets rect   { fill: #ddd; }
         .fretboard_bg .nut rect     { fill: #6e6e6e; }

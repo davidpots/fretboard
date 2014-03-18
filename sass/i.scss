@@ -57,6 +57,7 @@
         .svg_wrapper.h6 .cell svg { width: percentage( $cell_width_h / $fretb_width_h6  ); }
         .svg_wrapper.h7 .cell svg { width: percentage( $cell_width_h / $fretb_width_h7  ); }
 
+        svg { display: block; }
 
 /* Fretboard Element Styles */
         .cell.dot .fretb_dot { fill: #27a9e1; }
